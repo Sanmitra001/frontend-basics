@@ -10,8 +10,8 @@ function addTask() {
                 <strong>${title}</strong>: ${desc}
             </div>
             <div class="task-buttons">
-                <button class="complete" onclick="completeTask(this)"><i class="fa fa-check"></i></button>
-                <button class="delete" onclick="deleteTask(this)"><i class="fa fa-times"></i></button>
+                <button class="complete" onclick="completeTask(this)">✅</button>
+            <button class="delete" onclick="deleteTask(this)">❎</button>
             </div>
         `;
         taskList.appendChild(taskDiv);
